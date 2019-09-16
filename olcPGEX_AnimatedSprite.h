@@ -10,7 +10,7 @@ namespace olc
 		
 	public:
 		int CurrFrame = 0;
-		int SpriteXOffset = 0;
+		
 		// this is a class to draw an animated sprite - takes in 
 		// a sprite
 		// height and width of frame
@@ -21,7 +21,7 @@ namespace olc
 		int frames = 0;
 		int SpriteWidth = 32;
 		int SpriteHeight = 32;
-		
+		int SpriteXOffset = 0;
 		int SpriteYOffset = 0;
 		
 		float FrameTime = 0;

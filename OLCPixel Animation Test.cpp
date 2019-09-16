@@ -45,9 +45,7 @@ public:
 		sprPlayer3->DrawSprite((ScreenWidth() / 2) + 16 + 32, (ScreenHeight() / 2) - 16, fElapsedTime);
 		sprPlayer4->DrawSprite((ScreenWidth() / 2) - 16, (ScreenHeight() / 2) + 16 + 32, fElapsedTime);
 
-		//std::string sDebug1 = "Current Frame " + std::to_string(sprPlayer2->CurrFrame) + " X: Offset " + std::to_string(sprPlayer2->SpriteXOffset);
 		
-		//DrawString(0, 0, sDebug1, olc::WHITE);
 		
 		return true;
 	}
